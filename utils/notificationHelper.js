@@ -8,6 +8,7 @@ export function notifySuccess(text = {}) {
     text,
   })
 }
+
 export function notifyError(text = {}) {
   Vue.prototype.$notify({
     group: 'app',
